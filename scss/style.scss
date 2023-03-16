@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 50px 200px;
+    background: #EFEFEF;
+}
+.search{
+    width: 300px;
+    height: 30px;
+    border-radius: 25px;
+    text-align: center;
+    border: 1px #D4B098 solid;
+    background: #F7F5EF;
+}
+.btn{
+    width: 150px;
+    height: 30px;
+    border-radius: 25px;
+}
+.flexMain{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.outSearch{
+    width: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    gap: 20px;
+}
+.flexResult{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    background:rgba(68, 66, 64, 0.7);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    border-radius: 25px 0 25px 25px;
+}
+.itemTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.errBox{
+    background: #FFFEFB;
+    border: 1px solid #FF8484;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+.errLabel{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+    letter-spacing: -0.02em;
+    color: #FF8484;
+}

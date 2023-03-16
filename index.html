@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Поиск репозиториев</title>
+</head>
+<body>
+    <main>
+        <form action="" method="post" onsubmit="searchGit(this); return false">
+            <div class="flexMain">
+                <div>
+                    <h1>Поиск репозиториев GitHub</h1>
+                </div>
+                <div></div>
+                    <div>
+                        <input type="text" placeholder="Введите запрос" id="schString" class="search">
+                        <div id="errStr"></div>
+                    </div>
+                    <div>
+                        <input type="submit" placeholder="Найти" value="Найти" class="btn">
+                </div>
+            </div>
+        </form>
+        <div class="outSearch" id="resultSch">
+        </div>
+    </main>
+    <script src="scrypt/main.js"></script>
+</body>
+</html>
